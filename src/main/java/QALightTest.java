@@ -9,7 +9,7 @@ import static java.lang.Thread.sleep;
 public class QALightTest {
     WebDriver browser;
     @Test
-    public void qalight_home_page() throws InterruptedException {
+    public void testQalightHomePage() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
         browser = new ChromeDriver();
         browser.get("https://qalight.com.ua");
